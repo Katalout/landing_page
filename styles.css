@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    height: 100vh;
+    font-family: Roboto, 'Boilover Typeface', 'Courier New', Courier, monospace;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul a,
+.header-text {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.first {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    width: fit-content;
+    padding: 7px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+}
