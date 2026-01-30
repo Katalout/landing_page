@@ -30,7 +30,7 @@ ul a,
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
-    height: fit-content;
+    height: auto;
 }
 
 .first {
@@ -65,14 +65,14 @@ ul a,
 }
 
 .header-text {
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 15px;
 }
 
-/* i don't know how to make the image match the size of the left-side.. internet suggests table
+.header-image {
+    flex: 1;
+    width: 50%;
+}
 
-also if i set 50% to the img width, why doesn't it match the siblings width??? and why did it stop doing even approximately it when i reloaded??
 
-Annd why is the header title div bigger than the text?, even though i set fit-content height??
-
-does using weight and bigger font create a "shadow-padding" or wtfffff*/
+/* i don't know how to make the image match the size of the left-side.. internet suggests table*/
