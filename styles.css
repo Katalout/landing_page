@@ -76,3 +76,31 @@ ul a,
 
 
 /* i don't know how to make the image match the size of the left-side.. internet suggests table*/
+
+.second {
+    padding: 30px 0 50px;
+}
+
+.second-title {
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.second-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.img-group img {
+    width: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 9%;
+}
+
+.img-group {
+    width: 150px;
+}
