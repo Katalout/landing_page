@@ -104,3 +104,20 @@ ul a,
 .img-group {
     width: 150px;
 }
+
+.third {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    padding: 100px;
+    font-style: italic;
+}
+
+.third div {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 10px;
+    font-style: normal;
+}
